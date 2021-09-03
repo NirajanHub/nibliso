@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="OpenIso8583Net.dll" />
+    <None Remove="Packages\OpenIso8583Net.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="OpenIso8583Net.dll" />
+    <Content Include="Packages\OpenIso8583Net.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="OpenIso8583Net">
+      <HintPath>E:\Projects\openiso8583\OpenIso8583Net\bin\Debug\OpenIso8583Net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

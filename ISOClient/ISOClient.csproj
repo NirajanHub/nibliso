@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Packages\OpenIso8583Net.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Packages\OpenIso8583Net.dll" />
+  </ItemGroup>
+
+</Project>
